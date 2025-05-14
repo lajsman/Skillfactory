@@ -25,7 +25,7 @@ for order_num, data in orders.items():
     user_id = data.get("user_id", "unknown")
     date = data.get("date", "")
 
-    # 1. Самый дорогой заказ111
+    # 1. Самый дорогой заказ
     if price > max_price:
         max_price = price
         max_price_order = order_num
